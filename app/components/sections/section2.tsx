@@ -33,7 +33,7 @@ export const Section2 = () => {
               </span>
             </p>
           </div>
-          <div className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col w-[100%] md:w-[50%] gap-[42px] overflow-hidden">
+          <div className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col w-full  gap-[42px] overflow-hidden">
             <div className="px-[40px] flex flex-col gap-[8px]">
               <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white">
                 Change the world by changing your brand
