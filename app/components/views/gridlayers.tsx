@@ -12,7 +12,7 @@ export const GridLayers = () => {
     const gridlines = ref.current;
     if (gridlines) {
       const root = document.documentElement
-      setBoxNumber(root.getBoundingClientRect().height);
+      setBoxNumber(root.getBoundingClientRect().height + 1000);
     }
   }, []);
 
