@@ -4,7 +4,14 @@ export const  HeroSplinWave = () => {
   return (
     <div className="absolute top-0 left-0 w-full h-full z-10">
       <div className="w-full h-full relative">
-        <Spline scene="https://prod.spline.design/wEAE2Dl8k3rnxf6u/scene.splinecode" />
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          src="/assets/vaporwave-background-copy (2).webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
       </div>
     </div>
   );

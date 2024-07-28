@@ -5,7 +5,7 @@ export const Section2 = () => {
 
   return (
     <>
-      <section className="bcolor relative z-20">
+      <section className="bcolor relative z-20 pt-[120px]">
         <div className="flex md:flex-row flex-col gap-[50px] md:gap-0 px-[20px] md:px-[170px] pb-[72px] mx-auto container justify-between items-center">
           <div className="flex flex-col gap-[18px] md:w-[50%]">
             <h4 className="flex flex-col text-[32px] font-bold font-syne leading-[1]">
