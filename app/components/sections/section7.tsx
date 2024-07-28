@@ -6,7 +6,7 @@ export const Section7 = () => {
       <section className="bcolor relative z-20">
         <div className="pt-[56px] pb-[86px] flex flex-col items-center">
           <div className="w-[246px] h-[276px]">
-            
+            <Rocket />
           </div>
           <div className="w-[50%] shrink-0 flex flex-col">
             <div className="mt-[24px] mb-[18px]">

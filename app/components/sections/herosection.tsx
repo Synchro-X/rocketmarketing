@@ -7,6 +7,7 @@ export const HeroSection = () => {
   return (
     <>
       <header className="relative z-20">
+        
         <div className="flex flex-col items-center pt-[194px] pb-[257px] bg-bghero md:px-0 px-[20px]">
           <div className="absolute w-full h-full z-10"></div>
           <h1 className="inline-flex md:flex flex-col items-center gtext font-syne md:text-[72px] text-[46px] relative z-20 leading-[69px] tracking-[-1.442px] font-bold text-center">
