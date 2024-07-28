@@ -26,8 +26,57 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.herobg{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.5%, #12141D 100%);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.bcolor{
+  background-color: transparent;
+}
+.bgcolor {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45.5%, #12141d 100%);
+}
+.llg{
+  background: linear-gradient(90deg, #12141D 22.5%, rgba(29, 31, 39, 0.65) 59%, rgba(29, 31, 39, 0.00) 95%);
+}
+.rlg{
+  background: linear-gradient(90deg, #12141D 22.5%, rgba(29, 31, 39, 0.65) 59%, rgba(29, 31, 39, 0.00) 95%);
+  transform: rotateY(180deg);
+}
+
+.gctext {
+  background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gtext {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fff 0%,
+    #cbcbcb 50.5%,
+    #999 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rfm-marquee{
+  min-width:unset !important;
+}
+
+.rfm-child {
+  margin-left: 8px;
+}
+
+.brand .rfm-child {
+  margin-left: 16px;
 }
