@@ -8,7 +8,7 @@ export const Section7 = () => {
           <div className="w-[246px] h-[276px]">
             <Rocket />
           </div>
-          <div className="w-[50%] shrink-0 flex flex-col">
+          <div className="md:w-[50%] shrink-0 flex flex-col md:px-0 px-[20px]">
             <div className="mt-[24px] mb-[18px]">
               <h3 className="flex flex-col gtext text-[32px] font-semibold leading-[1] font-syne text-center">
                 <span>
