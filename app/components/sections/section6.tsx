@@ -5,7 +5,6 @@ import { Input } from "../../components/input";
 import { useState } from "react";
 import { Footer } from "../views/footer";
 import Image from "next/image";
-import Rocket from "../views/rocket";
 export const Section6 = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
