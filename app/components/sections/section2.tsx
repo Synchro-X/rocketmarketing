@@ -6,8 +6,8 @@ export const Section2 = () => {
   return (
     <>
       <section className="bcolor relative z-20">
-        <div className="flex px-[170px] pb-[72px] mx-auto container justify-between items-center">
-          <div className="flex flex-col gap-[18px] w-[50%]">
+        <div className="flex md:flex-row flex-col gap-[50px] md:gap-0 px-[20px] md:px-[170px] pb-[72px] mx-auto container justify-between items-center">
+          <div className="flex flex-col gap-[18px] md:w-[50%]">
             <h4 className="flex flex-col text-[32px] font-bold font-syne leading-[1]">
               <span className="gtext">We create amazing</span>
               <span className="gctext">experiences</span>
@@ -33,7 +33,7 @@ export const Section2 = () => {
               </span>
             </p>
           </div>
-          <div className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col w-[50%] gap-[42px] overflow-hidden">
+          <div className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col w-[100%] md:w-[50%] gap-[42px] overflow-hidden">
             <div className="px-[40px] flex flex-col gap-[8px]">
               <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white">
                 Change the world by changing your brand

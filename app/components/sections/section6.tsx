@@ -14,9 +14,9 @@ export const Section6 = () => {
   return (
     <>
       <section className="bcolor relative z-20">
-        <div className="pt-[88px] pb-[514px] relative">
-          <div className="container mx-auto px-[160px]">
-            <div className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  border-[#FFF] bg-[rgba(29,31,39,0.30)] px-[50px] py-[42px] gap-[68px]">
+        <div className="pt-[88px] pb-[200px] md:pb-[514px] relative">
+          <div className="md:container mx-auto px-[20px] md:px-[160px]">
+            <div className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[50px] py-[42px] gap-[68px]">
               <div className="flex flex-col justify-between grow">
                 <div className="flex flex-col gap-[8px]">
                   <h3 className="text-[32px] font-bold leading-[28px] tracking-[-0.4px] font-syne uppercase">
@@ -38,7 +38,7 @@ export const Section6 = () => {
                     <span>LETS WORK TOGETHER !</span>
                   </p>
                 </div>
-                <div className="flex gap-[24px] items-center pb-[20px]">
+                <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px]">
                   {Socials.map((social, index) => {
                     return (
                       

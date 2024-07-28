@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <main className="relative">
+      <main className="relative md:bg-transparent bg-[#12141D]">
         <GridLayers />
         <Section2 />
         <Section3 />

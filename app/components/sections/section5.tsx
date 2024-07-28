@@ -3,9 +3,9 @@ export const Section5 = () => {
   return (
     <>
       <section className="bcolor relative z-20">
-        <div className="pt-[21px] pb-[96.45px] mx-auto container px-[100px]">
-          <div className="flex items-center">
-            <div className="w-[50%] relative">
+        <div className="pt-[21px] pb-[96.45px] mx-auto md:container md:px-[100px] px-[20px]">
+          <div className="flex md:flex-row flex-col items-center">
+            <div className="w-full md:w-[50%] relative">
               <Image
                 src="/assets/homework.png"
                 alt=""
@@ -17,7 +17,7 @@ export const Section5 = () => {
                 }}
               />
             </div>
-            <div className="w-[50%] shrink-0 flex flex-col">
+            <div className="md:w-[50%] shrink-0 flex flex-col">
               <div className="flex items-center gap-[10px]">
                 <div className="h-[1px] w-[15%] bg-white/[0.2]"></div>
                 <div className="">

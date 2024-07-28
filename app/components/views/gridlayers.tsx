@@ -37,7 +37,7 @@ export const GridLayers = () => {
   return (
     <>
       <div
-        className="absolute z-10 pl-[332px] top-0 w-full h-full bg-[#12141D]"
+        className="absolute hidden  md:block z-10 pl-[332px] top-0 w-full h-full bg-[#12141D]"
         ref={ref}
       >
         <div

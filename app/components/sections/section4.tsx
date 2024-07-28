@@ -7,7 +7,7 @@ export const Section4 = () => {
       <section className="bcolor relative z-20">
         <div className="flex pt-[56px] pb-[34.08px] flex-col items-center">
           <div className="w-[381px] h-[285px]"></div>
-          <div className="flex w-[632px] flex-col items-center overflow-hidden">
+          <div className="flex md:w-[632px] w-full flex-col items-center overflow-hidden">
             <div className="relative w-[100%]">
               <div className="absolute w-[80px] h-[100px] left-0 llg z-10 top-0">
                 {" "}
@@ -29,7 +29,7 @@ export const Section4 = () => {
               <div className="absolute w-[80px] h-[170px] right-0 rlg z-10 top-0"></div>
             </div>
           </div>
-          <h3 className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center">
+          <h3 className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center">
             <span>
               Over the last <span className="gctext">decade</span> we{"'"}ve
               worked
