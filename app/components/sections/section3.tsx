@@ -6,13 +6,20 @@ export const Section3 = () => {
       <section className="bcolor relative z-20">
         <div className="md:pt-[188px] md:pb-[188px] pt-[188px] pb-[88px]">
           <div className="flex flex-col items-center">
-            <h2 className="flex flex-col text-[32px] gtext items-center font-bold font-syne leading-[1] text-center">
+            <h2
+              data-aos="fade-up"
+              className="flex flex-col text-[32px] gtext items-center font-bold font-syne leading-[1] text-center"
+            >
               <span>
                 Our <span className="gctext">services</span> span across
               </span>
               <span>multiple industries</span>
             </h2>
-            <p className="flex flex-col leading-[25.2px] tracking-[-0.36px] text-white/[0.5] px-[20px] font-outfit items-center mt-[18px] text-center">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="100"
+              className="flex flex-col leading-[25.2px] tracking-[-0.36px] text-white/[0.5] px-[20px] font-outfit items-center mt-[18px] text-center"
+            >
               <span>
                 We bring a wealth of digital marketing knowledge and expertise
                 to every industry we touch. We help our clients adapt to{" "}
@@ -28,6 +35,9 @@ export const Section3 = () => {
               {Services.slice(0, 2).map((service, index) => {
                 return (
                   <div
+                  
+                    data-aos="fade-up"
+                    data-aos-duration={`${index+1}00`}
                     className="group flex backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col"
                     key={index}
                   >
@@ -68,10 +78,12 @@ export const Section3 = () => {
               })}
             </div>
             <div className="flex md:flex-row flex-col gap-[24px]">
-              { Services.slice(2,Services.length).map((service, index) => {
+              {Services.slice(2, Services.length).map((service, index) => {
                 return (
                   <div
                     key={index}
+                    data-aos="fade-up"
+                    data-aos-duration={`${index+3}00`}
                     className="group flex flex-col backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative"
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all">
@@ -96,7 +108,7 @@ export const Section3 = () => {
                     </div>
                   </div>
                 );
-              }) }
+              })}
             </div>
           </div>
         </div>

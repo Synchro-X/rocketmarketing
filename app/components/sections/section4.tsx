@@ -31,7 +31,11 @@ export const Section4 = () => {
               <div className="absolute w-[80px] h-[170px] right-0 rlg z-10 top-0"></div>
             </div>
           </div>
-          <h3 className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center">
+          <h3
+            data-aos="fade-up"
+            className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center"
+            
+          >
             <span>
               Over the last <span className="gctext">decade</span> we{"'"}ve
               worked
@@ -40,7 +44,12 @@ export const Section4 = () => {
             <span>brands in the world.</span>
           </h3>
           <div className="mt-[18px]"></div>
-          <button className="min-h-[41px] flex items-center justify-center rounded-[28px] border-[2px] border-white/[0.10] bg-[rgba(39,174,96,0.07)] gap-[10px] w-[169px] font-outfit">
+          <button
+             data-aos="fade-up"
+            data-aos-duration="100"
+            className="min-h-[41px] flex items-center justify-center rounded-[28px] border-[2px] border-white/[0.10] bg-[rgba(39,174,96,0.07)] gap-[10px] w-[169px] font-outfit"
+         
+          >
             <span className="text-sm font-bold leading-[26px] tracking-[-0.36px] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

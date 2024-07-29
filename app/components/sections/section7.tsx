@@ -9,14 +9,19 @@ export const Section7 = () => {
             <Rocket />
           </div>
           <div className="md:w-[50%] shrink-0 flex flex-col md:px-0 px-[20px]">
-            <div className="mt-[24px] mb-[18px]">
+            <div data-aos="fade-up" className="mt-[24px] mb-[18px]">
               <h3 className="flex flex-col gtext text-[32px] font-semibold leading-[1] font-syne text-center">
                 <span>
                   <span className="gctext">Our</span> Team
                 </span>
               </h3>
             </div>
-            <p className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit items-center text-center">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="100"
+              className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit items-center text-center"
+              
+            >
               <span>
                 The biggest advantage from hiring outside consultants is the
                 access to new insights along with professional

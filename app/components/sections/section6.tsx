@@ -15,7 +15,12 @@ export const Section6 = () => {
       <section className="bcolor relative z-20">
         <div className="pt-[88px] pb-[200px] md:pb-[514px] relative">
           <div className="md:container mx-auto px-[20px] md:px-[160px]">
-            <div className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[50px] py-[42px] gap-[68px]">
+            <div
+             data-aos="fade-up"
+              data-aos-duration="200"
+              className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[50px] py-[42px] gap-[68px]"
+             
+            >
               <div className="flex flex-col justify-between grow">
                 <div className="flex flex-col gap-[8px]">
                   <h3 className="text-[32px] font-bold leading-[28px] tracking-[-0.4px] font-syne uppercase">
@@ -40,8 +45,13 @@ export const Section6 = () => {
                 <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px] flex-wrap">
                   {Socials.map((social, index) => {
                     return (
-                      
-                        <Image src={social} alt="" width={64} height={64} key={index}/>
+                      <Image
+                        src={social}
+                        alt=""
+                        width={64}
+                        height={64}
+                        key={index}
+                      />
                     );
                   })}
                 </div>

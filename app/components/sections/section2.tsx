@@ -8,7 +8,10 @@ export const Section2 = () => {
       <section className="bcolor relative z-20 pt-[120px] ">
         <div className="absolute h-[200px]  w-full bg-bghero top-[-200px]"></div>
         <div className="flex md:flex-row flex-col gap-[50px] md:gap-0 px-[20px] md:px-[170px] pb-[72px] mx-auto container justify-between items-center">
-          <div className="flex flex-col gap-[18px] md:w-[50%]">
+          <div
+            data-aos="fade-up"
+            className="flex flex-col gap-[18px] md:w-[50%]"
+          >
             <h4 className="flex flex-col text-[32px] font-bold font-syne leading-[1]">
               <span className="gtext">We create amazing</span>
               <span className="gctext">experiences</span>
@@ -34,7 +37,10 @@ export const Section2 = () => {
               </span>
             </p>
           </div>
-          <div className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden">
+          <div
+            data-aos="fade-up"
+            className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden"
+          >
             <div className="px-[40px] flex flex-col gap-[8px]">
               <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white">
                 Change the world by changing your brand

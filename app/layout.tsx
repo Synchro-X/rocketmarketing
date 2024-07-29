@@ -4,6 +4,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Nav } from "./components/views/nav";
 import { SmoothScrollbar } from "./components/views/smoothscroll";
+import { GlobalContextProvider } from "./context/globalcontext";
+import { Loader } from "./components/views/loader";
+
 
 const syne = Syne({
   subsets: ["latin"],
@@ -36,10 +39,13 @@ export default function RootLayout({
       <body
         className={`relative ${syne.variable} ${outfit.variable} ${lufga.variable}`}
       >
-        <SmoothScrollbar>
-          <Nav />
-          {children}
-        </SmoothScrollbar>
+        <GlobalContextProvider>
+          <Loader />
+          <SmoothScrollbar>
+            <Nav />
+            {children}
+          </SmoothScrollbar>
+        </GlobalContextProvider>
       </body>
     </html>
   );

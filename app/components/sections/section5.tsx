@@ -5,7 +5,7 @@ export const Section5 = () => {
       <section className="bcolor relative z-20">
         <div className="pt-[21px] pb-[96.45px] mx-auto md:container md:px-[100px] px-[20px]">
           <div className="flex md:flex-row flex-col items-center">
-            <div className="w-full md:w-[50%] relative">
+            <div data-aos="fade-up" className="w-full md:w-[50%] relative">
               <Image
                 src="/assets/homework.png"
                 alt=""
@@ -17,7 +17,11 @@ export const Section5 = () => {
                 }}
               />
             </div>
-            <div className="md:w-[50%] shrink-0 flex flex-col">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="100"
+              className="md:w-[50%] shrink-0 flex flex-col"
+            >
               <div className="flex items-center gap-[10px]">
                 <div className="h-[1px] w-[15%] bg-white/[0.2]"></div>
                 <div className="">
