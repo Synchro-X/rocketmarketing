@@ -9,7 +9,7 @@ export const Section4 = () => {
           <div className="w-[400px] h-[310px] relative">
             <PowerCube />
           </div>
-          <div className="flex md:w-[632px] w-full flex-col items-center overflow-hidden">
+          <div className="flex md:w-[632px] w-full flex-col items-center overflow-hidden md:mt-0 mt-[20px]">
             <div className="relative w-[100%]">
               <div className="absolute w-[80px] h-[100px] left-0 llg z-10 top-0">
                 {" "}

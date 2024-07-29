@@ -6,7 +6,7 @@ export const  HeroSplinWave = () => {
       <div className="w-full h-full relative">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
-          src="/assets/vaporwave-background.webm"
+          src="/assets/vaporwave-background-copy (1).webm"
           autoPlay
           loop
           muted

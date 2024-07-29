@@ -37,7 +37,7 @@ export const Section6 = () => {
                     <span>LETS WORK TOGETHER !</span>
                   </p>
                 </div>
-                <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px]">
+                <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px] flex-wrap">
                   {Socials.map((social, index) => {
                     return (
                       
