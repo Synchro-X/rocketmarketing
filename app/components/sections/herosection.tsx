@@ -41,6 +41,7 @@ export const HeroSection = () => {
                   sizes="100vw"
                   width={12}
                   height={18}
+                  priority
                 />
               </div>
             </span>

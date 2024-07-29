@@ -35,6 +35,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+ 
+}
+
+.text-gradient{
+  color: rgb(255 255 255 / 0.6);
+  transition-property: all;
+  transition-duration:3s; 
+}
+
+.group:hover .text-gradient{
+  background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bcolor {

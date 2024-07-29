@@ -47,6 +47,7 @@ export const Section3 = () => {
                         alt={service.image}
                         fill
                         sizes="100vw"
+                        priority
                       />
                     </div>
                     <div className="flex flex-col gap-[16px] relative z-20">
@@ -71,6 +72,7 @@ export const Section3 = () => {
                         style={{
                           width: "100%",
                         }}
+                        priority
                       />
                     </div>
                   </div>
@@ -92,6 +94,7 @@ export const Section3 = () => {
                         alt={service.image}
                         fill
                         sizes="100vw"
+                        priority
                       />
                     </div>
                     <div className="flex flex-col gap-[16px] relative z-20">
