@@ -3,8 +3,9 @@ import Image from "next/image";
 export const Section3 = () => {
   return (
     <>
-      <section className="bcolor relative z-20">
-        <div className="md:pt-[188px] md:pb-[188px] pt-[188px] pb-[88px]">
+      <section className="bcolor relative z-20 overflow-hidden">
+        <div className="absolute z-20 top-[-25%] left-[50%] translate-x-[-50%] tanslate-y-[-50%] w-[200%] h-[150%] border-[1px] border-white jet"></div>
+        <div className="md:pt-[188px] md:pb-[188px] pt-[188px] pb-[88px] relative z-30">
           <div className="flex flex-col items-center">
             <h2
               data-aos="fade-up"
@@ -35,10 +36,9 @@ export const Section3 = () => {
               {Services.slice(0, 2).map((service, index) => {
                 return (
                   <div
-                  
                     data-aos="fade-up"
-                    data-aos-duration={`${index+1}00`}
-                    className="group flex backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
+                    data-aos-duration={`${index + 1}00`}
+                    className="group flex backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6] transition-all duration-[2s] hover:border-[#bb2bff] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
                     key={index}
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all md:hidden flex">
@@ -83,8 +83,8 @@ export const Section3 = () => {
                   <div
                     key={index}
                     data-aos="fade-up"
-                    data-aos-duration={`${index+3}00`}
-                    className="group flex flex-col backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative"
+                    data-aos-duration={`${index + 3}00`}
+                    className="group flex flex-col backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative transition-all duration-[2s] hover:border-[#bb2bff]"
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all">
                       <Image
@@ -168,7 +168,7 @@ const Services = [
     image: "/assets/image-Photoroom (3) 1.png",
   },
   {
-    name: ["Strategy planning",],
+    name: ["Strategy planning"],
     contents: [
       "We assist our clients in the go to market strategy",
       "for specific products and services.",
