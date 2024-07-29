@@ -6,7 +6,7 @@ export const Section3 = () => {
       <section className="bcolor relative z-20">
         <div className="md:pt-[188px] md:pb-[188px] pt-[188px] pb-[88px]">
           <div className="flex flex-col items-center">
-            <h2 className="flex flex-col text-[32px] gtext items-center font-bold font-syne leading-[1]">
+            <h2 className="flex flex-col text-[32px] gtext items-center font-bold font-syne leading-[1] text-center">
               <span>
                 Our <span className="gctext">services</span> span across
               </span>

@@ -6,7 +6,7 @@ export const  HeroSplinWave = () => {
       <div className="w-full h-full relative">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
-          src="/assets/vaporwave-background-copy (2).webm"
+          src="/assets/vaporwave-background.webm"
           autoPlay
           loop
           muted
@@ -23,7 +23,7 @@ export const PowerCube = () => {
       <div className="w-full h-full relative">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
-          src="/assets/power-cube-copy.webm"
+          src="/assets/powerccube.webm"
           autoPlay
           loop
           muted
