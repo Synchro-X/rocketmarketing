@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
   content: [
@@ -12,7 +13,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "bghero": "linear-gradient(180deg, rgba(0,0,0,0.00) 45.5%, #12141D 100%)"
+        bghero: "linear-gradient(180deg, rgba(0,0,0,0.00) 45.5%, #12141D 100%)",
       },
       fontFamily: {
         syne: ["var(--font-syne)"],
@@ -21,6 +22,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
 export default config;

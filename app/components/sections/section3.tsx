@@ -38,7 +38,7 @@ export const Section3 = () => {
                   
                     data-aos="fade-up"
                     data-aos-duration={`${index+1}00`}
-                    className="group flex backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col"
+                    className="group flex backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
                     key={index}
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all md:hidden flex">

@@ -10,7 +10,6 @@ export const Loader = () => {
   useEffect(() => {
     setLoadingComplete(false);
     const tl = gsap.timeline({
-      duration: 5,
       paused: true,
       onComplete: () => {
         setLoadingComplete(true);
