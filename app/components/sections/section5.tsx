@@ -7,7 +7,6 @@ export const Section5 = () => {
           <div className="flex md:flex-row flex-col items-center">
             <div data-aos="fade-up" className="w-full md:w-[50%] relative">
               <Image
-              priority
                 src="/assets/homework.png"
                 alt=""
                 width={0}

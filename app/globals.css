@@ -35,20 +35,80 @@ body {
   .text-balance {
     text-wrap: balance;
   }
- 
 }
 
-.text-gradient{
-  color: rgb(255 255 255 / 0.6);
-  transition-property: all;
-  transition-duration:3s; 
+.text-gradient {
+  background: rgb(255 255 255 / 0.6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 3s, -webkit-text-fill-color 3s;
+  animation: rtextgradient 1.4s;
 }
 
-.group:hover .text-gradient{
+@keyframes rtextgradient{
+  0% {
+    background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: rgb(255 255 255 / 0.6);
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+}
+
+h6.text-gradient {
+  background: white;
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 3s, -webkit-text-fill-color 3s;
+  animation: wtextgradient 1.4s;
+}
+
+@keyframes wtextgradient{
+  0% {
+    background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: white;
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+}
+
+.group:hover .text-gradient {
   background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: textgradient 1.4s;
+}
+
+@keyframes textgradient {
+  0% {
+    background: rgb(255 255 255 / 0.6);
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+     background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 }
 
 .bcolor {

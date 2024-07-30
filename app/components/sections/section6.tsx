@@ -51,7 +51,7 @@ export const Section6 = () => {
                         width={64}
                         height={64}
                         key={index}
-                        priority
+                        
                       />
                     );
                   })}
@@ -93,7 +93,7 @@ export const Section6 = () => {
                 style={{
                   width: "100%",
                 }}
-                priority
+                
               />
             </div>
           </div>

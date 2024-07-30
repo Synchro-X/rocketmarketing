@@ -22,7 +22,7 @@ export const Section4 = () => {
                       key={index}
                     >
                       <div className="relative w-[58px] h-[58px]">
-                        <Image src={image} alt="" sizes="100vw"  priority fill />
+                        <Image src={image} alt="" sizes="100vw"   fill />
                       </div>
                     </div>
                   );

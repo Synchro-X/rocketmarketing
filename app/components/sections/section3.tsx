@@ -36,9 +36,7 @@ export const Section3 = () => {
               {Services.slice(0, 2).map((service, index) => {
                 return (
                   <div
-                    data-aos="fade-up"
-                    data-aos-duration={`${index + 1}00`}
-                    className="group flex backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6] transition-all duration-[2s] hover:border-[#bb2bff] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
+                    className="group flex backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6] transition-border duration-[1.2s] hover:border-[#2b59ff] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
                     key={index}
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all md:hidden flex">
@@ -51,12 +49,12 @@ export const Section3 = () => {
                       />
                     </div>
                     <div className="flex flex-col gap-[16px] relative z-20">
-                      <h6 className="text-large font-bold leading-[28px] tracking-[-0.4px] font-outfit flex flex-col ">
+                      <h6 className="text-large font-bold leading-[28px] tracking-[-0.4px] font-outfit flex flex-col text-gradient">
                         {service.name.map((n, index) => {
                           return <span key={index}>{n}</span>;
                         })}
                       </h6>
-                      <p className="flex flex-col tex-sm font-outfit font-medium text-white/[0.6]">
+                      <p className="flex flex-col tex-sm font-outfit font-medium text-white/[0.6] text-gradient">
                         {service.contents.map((con, index) => {
                           return <span key={index}>{con}</span>;
                         })}
@@ -84,9 +82,7 @@ export const Section3 = () => {
                 return (
                   <div
                     key={index}
-                    data-aos="fade-up"
-                    data-aos-duration={`${index + 3}00`}
-                    className="group flex flex-col backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative transition-all duration-[2s] hover:border-[#bb2bff]"
+                    className="group flex flex-col backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative transition-border duration-[1.2s] hover:border-[#2b59ff]"
                   >
                     <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all">
                       <Image
@@ -98,12 +94,12 @@ export const Section3 = () => {
                       />
                     </div>
                     <div className="flex flex-col gap-[16px] relative z-20">
-                      <h6 className="text-large font-bold leading-[28px] tracking-[-0.4px] font-outfit flex flex-col ">
+                      <h6 className="text-large font-bold leading-[28px] tracking-[-0.4px] font-outfit flex flex-col text-gradient ">
                         {service.name.map((n, index) => {
                           return <span key={index}>{n}</span>;
                         })}
                       </h6>
-                      <p className="flex flex-col tex-sm font-outfit font-medium text-white/[0.6]">
+                      <p className="flex flex-col tex-sm font-outfit font-medium text-white/[0.6] text-gradient">
                         {service.contents.map((con, index) => {
                           return <span key={index}>{con}</span>;
                         })}
@@ -162,7 +158,7 @@ const Services = [
     image: "/assets/image-Photoroom (2) 1.png",
   },
   {
-    name: ["Conent marketing"],
+    name: ["Content marketing"],
     contents: [
       "We market our clients contents across all media",
       "platforms to ensure the maximum amount of",
