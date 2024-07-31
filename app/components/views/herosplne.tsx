@@ -1,6 +1,8 @@
 "use client"
 
 import React, { useEffect, useState } from "react";
+import Spline from "@splinetool/react-spline";
+
 
 export const HeroSplinWave = () => {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
@@ -23,14 +25,7 @@ export const HeroSplinWave = () => {
   return (
     <div className="absolute top-0 left-0 w-full h-full z-10">
       <div className="w-full h-full relative">
-        <video
-          className="absolute top-0 left-0 w-full h-full object-cover"
-          src="/assets/vaporwave-background-copy (1).webm"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <Spline scene="https://prod.spline.design/ZkX-kzcilXJcC21C/scene.splinecode" />
       </div>
     </div>
   );
