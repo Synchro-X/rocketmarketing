@@ -234,3 +234,10 @@ body {
     width: 235vw;
   }
 }
+
+.highlight .line .word .char{
+  background: linear-gradient(94deg, #2b59ff 0%, #bb2bff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -36,12 +36,12 @@ export const Section4 = () => {
             className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center"
             
           >
-            <span>
+            <span data-aos="fade-up">
               Over the last <span className="gctext">decade</span> we{"'"}ve
               worked
             </span>
-            <span>with some of the most well known</span>
-            <span>brands in the world.</span>
+            <span data-aos="fade-up" data-aos-duration="500">with some of the most well known</span>
+            <span data-aos="fade-up" data-aos-duration="100">brands in the world.</span>
           </h3>
           <div className="mt-[18px]"></div>
           <button

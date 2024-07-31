@@ -32,7 +32,11 @@ export const Section5 = () => {
                 <div className="h-[1px] grow bg-white/[0.2]"></div>
               </div>
               <div className="mt-[23px] mb-[18px]">
-                <h3 className="flex flex-col gtext text-[32px] font-semibold leading-[1] font-syne">
+                <h3
+                  data-aos="fade-up"
+                  data-aos-duration="500"
+                  className="flex flex-col gtext text-[32px] font-semibold leading-[1] font-syne"
+                >
                   <span>
                     <span className="gctext">Establish</span> your market as
                     your
@@ -40,7 +44,11 @@ export const Section5 = () => {
                   <span>kingdom</span>
                 </h3>
               </div>
-              <p className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit">
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit"
+              >
                 <span>
                   Establishing yourself as a power player in any market is
                   difficult so we{"'"}ve built a

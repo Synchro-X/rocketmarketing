@@ -16,11 +16,10 @@ export const Section7 = () => {
                 </span>
               </h3>
             </div>
-            <p
+            <div
+              className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit items-center text-center"
               data-aos="fade-up"
               data-aos-duration="100"
-              className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit items-center text-center"
-              
             >
               <span>
                 The biggest advantage from hiring outside consultants is the
@@ -35,7 +34,7 @@ export const Section7 = () => {
                 and years of experience in design, branding,
               </span>
               <span>marketing, advertising, and sales.</span>
-            </p>
+            </div>
           </div>
         </div>
       </section>

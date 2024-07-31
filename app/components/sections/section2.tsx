@@ -1,22 +1,29 @@
 import { Active } from "../icons";
 import Marquee from "react-fast-marquee";
 export const Section2 = () => {
-
-
   return (
     <>
       <section className="bcolor relative z-20 pt-[120px] ">
         <div className="absolute h-[200px]  w-full bg-bghero top-[-200px]"></div>
         <div className="flex md:flex-row flex-col gap-[50px] md:gap-0 px-[20px] md:px-[170px] pb-[72px] mx-auto container justify-between items-center">
-          <div
-            data-aos="fade-up"
-            className="flex flex-col gap-[18px] md:w-[50%]"
-          >
+          <div className="flex flex-col gap-[18px] md:w-[50%]">
             <h4 className="flex flex-col text-[32px] font-bold font-syne leading-[1]">
-              <span className="gtext">We create amazing</span>
-              <span className="gctext">experiences</span>
+              <span className="gtext" data-aos="fade-up">
+                We create amazing
+              </span>
+              <span
+                className="gctext"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                experiences
+              </span>
             </h4>
-            <p className="flex flex-col font-outfit text-lg leading-[25.2px] tracking-[-0.36px] text-white/[0.5]">
+            <p
+              className="flex flex-col font-outfit text-lg leading-[25.2px] tracking-[-0.36px] text-white/[0.5]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <span>
                 Understanding the implications of different platforms, user
               </span>
@@ -39,7 +46,8 @@ export const Section2 = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.6] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden"
+            data-aos-duration="1000"
+            className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.5] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden"
           >
             <div className="px-[40px] flex flex-col gap-[8px]">
               <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white">
@@ -56,7 +64,7 @@ export const Section2 = () => {
               </p>
             </div>
             <div className="flex flex-col gap-[16px] w-full items-center relative">
-              <div className="absolute w-[80px] h-[170px] left-0  llg z-10"></div>
+              <div className="absolute w-[80px] h-[170px] left-0  llg z-10 translate-y-[-50%] top-[50%]"></div>
               <div className="flex flex-col gap-[16px] relative *:">
                 <Marquee className="flex">
                   {Brands.map((brand, index) => {
@@ -85,7 +93,7 @@ export const Section2 = () => {
                   })}
                 </Marquee>
               </div>
-              <div className="absolute w-[80px] h-[170px] right-0 rlg z-10"></div>
+              <div className="absolute w-[80px] h-[170px] right-0 rlg z-10 translate-y-[-50%] top-[-50%]"></div>
             </div>
           </div>
         </div>
@@ -94,13 +102,13 @@ export const Section2 = () => {
   );
 };
 
-
 const Brands = [
-    "Graphics design",
-    "Copywriting",
-    "Content marketing",
-    "Marketing",
-    "Website design",
-    "Music","Strategy planning",
-    "Advertising design"
-]
+  "Graphics design",
+  "Copywriting",
+  "Content marketing",
+  "Marketing",
+  "Website design",
+  "Music",
+  "Strategy planning",
+  "Advertising design",
+];

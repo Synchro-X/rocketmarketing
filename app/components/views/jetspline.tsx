@@ -5,6 +5,7 @@ import Spline from "@splinetool/react-spline";
 export default function JetSpline() {
   const [isLoaded, setIsLoaded] = useState(false);
 
+
   useEffect(() => {
     const handleLoad = () => {
       setIsLoaded(true);
@@ -21,7 +22,7 @@ export default function JetSpline() {
   return (
     <>
       {isLoaded ? (
-        <div className="relative w-full h-full">
+        <div className="relative md:flex hidden w-full h-full">
           <Spline scene="https://prod.spline.design/Da9JeeuvY50yNyef/scene.splinecode" />
         </div>
       ) : (

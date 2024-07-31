@@ -7,6 +7,7 @@ import Spline from "@splinetool/react-spline";
 export const HeroSplinWave = () => {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
+
   useEffect(() => {
     const handleLoad = () => {
       setIsPageLoaded(true);
@@ -52,9 +53,7 @@ export const PowerCube = () => {
   return (
     <div className="absolute top-0 left-0 w-full h-full z-10">
       <div className="w-full h-full relative">
-         <Spline
-        scene="https://prod.spline.design/I3Nuuz2Kt1FmChM2/scene.splinecode" 
-      />
+        <Spline scene="https://prod.spline.design/I3Nuuz2Kt1FmChM2/scene.splinecode" />
       </div>
     </div>
   );

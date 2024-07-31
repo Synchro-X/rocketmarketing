@@ -9,6 +9,7 @@ export default function Rocket() {
 
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
+
   useEffect(() => {
     const handleLoad = () => {
       setIsPageLoaded(true);

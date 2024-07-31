@@ -7,7 +7,7 @@ export const Footer = () => {
           <div className="mt-[115.4px]">
             <div className="flex flex-col md:container mx-auto px-[20px] md:px-[130px] gap-[41px]">
               <div className="h-[1px] w-full bg-[#eee]/[0.21]"></div>
-              <div className="flex justify-between w-full items-center">
+              <div className="flex justify-between w-full items-center md:flex-row flex-col gap-[5px]">
                 <div className="w-[130.895px] h-[44.593px] relative">
                   <Image src="/assets/logo.png" alt="" fill sizes="100vw"  />
                 </div>

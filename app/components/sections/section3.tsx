@@ -13,8 +13,8 @@ export const Section3 = () => {
     const timeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".rootelement",
-        start: "top 20%",
-        end: "top 100px",
+        start: "top 30%",
+        end: "bottom bottom",
         scrub: true,
       },
     });
@@ -30,7 +30,7 @@ export const Section3 = () => {
           ease: "power2.out",
         }
       )
-      .to({}, { duration: 2 })
+      .to({}, { delay: 1 })
       .fromTo(
         ".boxcontent",
         { opacity: 0, y: 100 },
@@ -44,7 +44,7 @@ export const Section3 = () => {
   }, []);
 
   return (
-    <section className="rootelement bcolor relative z-20  block">
+    <div className="rootelement bcolor relative z-20  block">
       <div className="jet absolute z-20 top-0 left-0 w-full h-full ">
         <JetSpline />
       </div>
@@ -54,14 +54,16 @@ export const Section3 = () => {
             data-aos="fade-up"
             className="flex flex-col text-[32px] gtext items-center font-bold font-syne leading-[1] text-center"
           >
-            <span>
+            <div>
               Our <span className="gctext">services</span> span across
-            </span>
-            <span>multiple industries</span>
+            </div>
+            <div >
+              multiple industries
+            </div>
           </h2>
           <p
             data-aos="fade-up"
-            data-aos-duration="100"
+            data-aos-duration="1500"
             className="flex flex-col leading-[25.2px] tracking-[-0.36px] text-white/[0.5] px-[20px] font-outfit items-center mt-[18px] text-center"
           >
             <span>
@@ -78,7 +80,7 @@ export const Section3 = () => {
           <div className="flex md:flex-row flex-col gap-[24px]">
             {Services.slice(0, 2).map((service, index) => (
               <div
-                className="group flex backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6] transition-border duration-[1.2s] hover:border-[#2b59ff] md:px-0 px-[20px]  gap-[42px] py-[27px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
+                className="group flex backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6] transition-border duration-[1.2s] hover:border-[#2b59ff] md:px-0 px-[20px]  md:gap-[42px] md:py-[27px] py-[40px] md:pl-[40px] items-center shrink-0 grow relative  md:flex-row flex-col "
                 key={index}
               >
                 <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all md:hidden flex">
@@ -122,7 +124,7 @@ export const Section3 = () => {
             {Services.slice(2, Services.length).map((service, index) => (
               <div
                 key={index}
-                className="group flex flex-col backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] py-[33px] px-[40px] items-center grow-[1]  relative transition-border duration-[1.2s] hover:border-[#2b59ff]"
+                className="group flex flex-col backdrop-blur-[6px] bg-[rgba(29,31,39,0.24)] rounded-[32px] border-[2px] border-white/[0.6]  gap-[20px] md:py-[33px]  md:px-[40px] px-[18px] py-[40px] items-center grow-[1]  relative transition-border duration-[1.2s] hover:border-[#2b59ff]"
               >
                 <div className="relative w-[100%] h-[258px] grayscale group-hover:grayscale-0 transition-all">
                   <Image
@@ -150,7 +152,7 @@ export const Section3 = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

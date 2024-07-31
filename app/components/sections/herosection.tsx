@@ -12,12 +12,12 @@ export const HeroSection = () => {
           <HeroSplinWave />
           <div className="flex flex-col items-center pt-[194px] pb-[257px] bg-bghero md:px-0 px-[20px]">
             <div className="absolute w-full h-full z-10"></div>
-            <h1 className="inline-flex md:flex flex-col items-center gtext font-syne md:text-[72px] text-[46px] relative z-20 leading-[69px] tracking-[-1.442px] font-bold text-center ">
+            <h1 className="inline-flex md:flex flex-col items-center gtext font-syne md:text-[72px] text-[46px] relative z-20 md:leading-[69px] tracking-[-1.442px] font-bold text-center leading-[1]">
               <span className="flex md:gap-[20px] flex-wrap justify-center">
                 <span className="headertitle overflow-y-hidden gtext">
                   We Create The{"    "}
                 </span>
-                <span className="gctext"> Future:</span>
+                <span className="highlight headertitle">Future:</span>
               </span>
               <span className="headertitle overflow-y-hidden">
                 Innovating Today for a
