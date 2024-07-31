@@ -22,7 +22,7 @@ export const Section4 = () => {
                       key={index}
                     >
                       <div className="relative w-[58px] h-[58px]">
-                        <Image src={image} alt="" sizes="100vw"   fill />
+                        <Image src={image} alt="" sizes="100vw" fill />
                       </div>
                     </div>
                   );
@@ -34,21 +34,34 @@ export const Section4 = () => {
           <h3
             data-aos="fade-up"
             className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center"
-            
           >
-            <span data-aos="fade-up">
+            <span data-aos="fade-up" className="hidden md:flex">
               Over the last <span className="gctext">decade</span> we{"'"}ve
               worked
             </span>
-            <span data-aos="fade-up" data-aos-duration="500">with some of the most well known</span>
-            <span data-aos="fade-up" data-aos-duration="100">brands in the world.</span>
+            <span
+              data-aos="fade-up"
+              data-aos-duration="500"
+              className="hidden md:flex"
+            >
+              with some of the most well known
+            </span>
+            <span
+              data-aos="fade-up"
+              data-aos-duration="100"
+              className="hidden md:flex"
+            >
+              brands in the world.
+            </span>
+            <span className="md:hidden block px-[20px]">
+              Over the last <span className="gctext">decade</span> we{"'"}ve worked with some of the most well known brands in the world.
+            </span>
           </h3>
           <div className="mt-[18px]"></div>
           <button
-             data-aos="fade-up"
+            data-aos="fade-up"
             data-aos-duration="100"
             className="min-h-[41px] flex items-center justify-center rounded-[28px] border-[2px] border-white/[0.10] bg-[rgba(39,174,96,0.07)] gap-[10px] w-[169px] font-outfit"
-         
           >
             <span className="text-sm font-bold leading-[26px] tracking-[-0.36px] ">
               <svg

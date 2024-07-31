@@ -24,22 +24,30 @@ export const Section2 = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <span>
+              <span className="md:flex hidden">
                 Understanding the implications of different platforms, user
               </span>
-              <span>
+              <span className="md:flex hidden">
                 interfaces, content management systems and programming
               </span>
-              <span>
+              <span className="md:flex hidden">
                 languages. We are better equipped to engineer our marketing
               </span>
-              <span>
+              <span className="md:flex hidden">
                 strategy via SMM, PPC, and SEO. We tailor our strategy to suit
               </span>
-              <span>
+              <span className="md:flex hidden">
                 customer demographics, consumer behavior by using advanced
               </span>
-              <span>
+              <span className="md:flex hidden">
+                UI/UX, programmatic advertising and content development.
+              </span>
+              <span className="flex md:hidden">
+                Understanding the implications of different platforms, user
+                interfaces, content management systems and programming
+                languages. We are better equipped to engineer our marketing
+                strategy via SMM, PPC, and SEO. We tailor our strategy to suit
+                customer demographics, consumer behavior by using advanced
                 UI/UX, programmatic advertising and content development.
               </span>
             </p>
@@ -54,12 +62,16 @@ export const Section2 = () => {
                 Change the world by changing your brand
               </p>
               <p className="flex flex-col font-medium text-base font-outfit text-white/[0.6]">
-                <span>
+                <span className="hidden md:flex">
                   Pioneering breakthroughs in key sectors - from Web3 innovation
                   to
                 </span>
-                <span>
+                <span className="hidden md:flex">
                   FinTech, EdTech, E-commerce, Music and Entertainment.
+                </span>
+                <span className="md:hidden flex">
+                  Pioneering breakthroughs in key sectors - from Web3 innovation
+                  to FinTech, EdTech, E-commerce, Music and Entertainment.
                 </span>
               </p>
             </div>

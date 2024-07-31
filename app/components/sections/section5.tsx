@@ -49,21 +49,25 @@ export const Section5 = () => {
                 data-aos-duration="1000"
                 className="flex flex-col text-white/[0.5] text-lg tracking-[-0.36px] leading-[25.2px] font-outfit"
               >
-                <span>
+                <span className="hidden md:flex">
                   Establishing yourself as a power player in any market is
                   difficult so we{"'"}ve built a
                 </span>
-                <span>
+                <span className="hidden md:flex">
                   team that is extremely passionate about adding value and
                   excited to take on
                 </span>
-                <span>
+                <span className="hidden md:flex">
                   new projects. We enjoy deploying strategies that help bring
                   our clients brand
                 </span>
-                <span>
+                <span className="hidden md:flex">
                   and business to the next level. Our mission is to ensure our
                   clients see tangible and measurable results !
+                </span>
+                <span className="md:hidden flex">
+                  Establishing yourself as a power player in any market is difficult so we{"'"}ve built a team that is extremely passionate about adding value and excited to take on new projects. We
+                  enjoy deploying strategies that help bring our clients brand and business to the next level. Our mission is to ensure our clients see tangible and measurable results !
                 </span>
               </p>
             </div>

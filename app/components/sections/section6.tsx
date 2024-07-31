@@ -25,19 +25,25 @@ export const Section6 = () => {
                     LETS TAKEOFF TOGETHER 🚀
                   </h3>
                   <p className="text-base font-medium leading-[22.4px] font-outfit flex flex-col text-white/[0.5]">
-                    <span>
+                    <span className="md:flex hidden">
                       We bring a wealth of digital marketing knowledge and
                       expertise to
                     </span>
-                    <span>
+                    <span className="md:flex hidden">
                       every industry we touch. We help our clients adapt to meet
                       the
                     </span>
-                    <span>
+                    <span className="md:flex hidden">
                       opportunities and the challenges of the current digital
                       landscape.
                     </span>
-                    <span>LETS WORK TOGETHER !</span>
+                    <span className="md:flex hidden">LETS WORK TOGETHER !</span>
+                    <span className="flex md:hidden">
+                      We bring a wealth of digital marketing knowledge and
+                      expertise to every industry we touch. We help our clients
+                      adapt to meet the opportunities and the challenges of the
+                      current digital landscape. LETS WORK TOGETHER !
+                    </span>
                   </p>
                 </div>
                 <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px] flex-wrap">

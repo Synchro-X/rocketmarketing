@@ -21,19 +21,27 @@ export const Section7 = () => {
               data-aos="fade-up"
               data-aos-duration="100"
             >
-              <span>
+              <span className="md:flex hidden">
                 The biggest advantage from hiring outside consultants is the
                 access to new insights along with professional
               </span>
-              <span>
+              <span className="md:flex hidden">
                 expertise you may not need full time. We are passionate about
                 providing as much value to our clients as
               </span>
-              <span>
+              <span className="md:flex hidden">
                 possible ! Our team members are experts each with unique talents
                 and years of experience in design, branding,
               </span>
               <span>marketing, advertising, and sales.</span>
+              <span className="flex md:hidden">
+                The biggest advantage from hiring outside consultants is the
+                access to new insights along with professional expertise you may
+                not need full time. We are passionate about providing as much
+                value to our clients as possible ! Our team members are experts
+                each with unique talents and years of experience in
+                design,branding, marketing, advertising, and sales.
+              </span>
             </div>
           </div>
         </div>

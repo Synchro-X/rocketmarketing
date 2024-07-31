@@ -7,6 +7,7 @@ import Spline from "@splinetool/react-spline";
 export const HeroSplinWave = () => {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
+  
 
   useEffect(() => {
     const handleLoad = () => {

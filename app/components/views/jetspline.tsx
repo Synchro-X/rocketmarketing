@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 
 export default function JetSpline() {
   const [isLoaded, setIsLoaded] = useState(false);
-
+return null
 
   useEffect(() => {
     const handleLoad = () => {
