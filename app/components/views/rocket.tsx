@@ -3,6 +3,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
+import Spline from "@splinetool/react-spline";
 
 export default function Rocket() {
 
@@ -24,14 +25,7 @@ export default function Rocket() {
   if (!isPageLoaded) return null;
   return (
     <div className="relative w-full h-full">
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/assets/rocket-copy.webm"
-        autoPlay
-        loop
-        muted
-        playsInline
-      />
+      <Spline scene="https://prod.spline.design/q9mibBsNcjhOeK7c/scene.splinecode" />
     </div>
   );
 }
