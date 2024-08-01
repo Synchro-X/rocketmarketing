@@ -29,12 +29,12 @@ export const Form = () => {
         <div
           className=" relative flex items-center justify-center w-full h-full"
           onClick={handleBackgroundClick}
-        >y
+        >
           <div className="md:container mx-auto px-[20px] md:px-[160px]">
             <div
               data-aos="fade-up"
               data-aos-duration="200"
-              className="w-full rounded-[32px] border-[2px] backdrop-blur-[10px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[20px] md:px-[50px] py-[42px] gap-[68px]"
+              className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[20px] md:px-[50px] py-[42px] gap-[68px]"
               onClick={handleContentClick}
             >
               <div className="flex flex-col justify-between grow">

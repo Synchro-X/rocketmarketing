@@ -17,7 +17,7 @@ export const HeroSplinWave = () => {
 };
 
 export const PowerCube = () => {
-  //return null
+  return null
 
   return (
     <div
