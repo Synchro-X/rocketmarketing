@@ -10,7 +10,6 @@ import { Section7 } from "./components/sections/section7";
 import { Section6 } from "./components/sections/section6";
 import { GridLayers } from "./components/views/gridlayers";
 import AOSWrapper from "./components/aoswrapper";
-import { FormWrapper } from "./components/formwrapper";
 import { Form } from "./components/views/form";
 
 
@@ -86,9 +85,7 @@ export default function Home() {
 
   return (
     <>
-      <FormWrapper>
           <Form />
-      </FormWrapper>
       <HeroSection />
       <main className="relative md:bg-transparent bg-[#12141D]">
         <AOSWrapper>

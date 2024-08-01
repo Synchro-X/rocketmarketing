@@ -11,15 +11,31 @@ export const Form = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const { open, setOpen } = useGlobalContext();
+
+    const handleBackgroundClick = () => {
+    setOpen(false);
+  };
+
+  const handleContentClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+  };
+
+  if(!open) return null
+
   return (
     <>
-      <section className="bcolor relative z-20">
-        <div className="pt-[88px] pb-[200px] md:pb-[514px] relative">
+      <section className="fixed top-0 left-0 w-full h-full backdrop-blur-[6px] bg-[12141d] z-[1000]">
+        <div
+          className=" relative flex items-center justify-center w-full h-full"
+          onClick={handleBackgroundClick}
+        >
           <div className="md:container mx-auto px-[20px] md:px-[160px]">
             <div
               data-aos="fade-up"
               data-aos-duration="200"
               className="w-full rounded-[32px] border-[2px] backdrop-blur-[6px] flex  md:flex-row flex-col  border-[#FFF]/[0.5] bg-[rgba(29,31,39,0.30)] px-[20px] md:px-[50px] py-[42px] gap-[68px]"
+              onClick={handleContentClick}
             >
               <div className="flex flex-col justify-between grow">
                 <div className="flex flex-col gap-[8px]">
