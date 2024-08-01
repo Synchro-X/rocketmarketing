@@ -35,14 +35,6 @@ export const Loader = () => {
         skewX: 0,
         duration: 1,
       })
-      .to(
-        ".page-main",
-        {
-          clipPath: "circle(100%)",
-          duration: 1,
-        },
-        "-=0.3"
-      )
       .to(".panels", {
         zIndex: "0",
       });

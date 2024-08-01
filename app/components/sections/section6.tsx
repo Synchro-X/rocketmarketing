@@ -53,7 +53,7 @@ export const Section6 = () => {
                         className="md:w-[64px] md:h-[64px] w-[36px] h-[36px] relative"
                         key={index}
                       >
-                        <Image src={social} alt="" fill />
+                        
                       </div>
                     );
                   })}

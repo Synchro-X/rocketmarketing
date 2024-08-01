@@ -36,13 +36,7 @@ export const HeroSection = () => {
 
             <span className="mt-[48px] relative z-20">
               <div className="w-[56px] h-[56px] rounded-full border-[rgba(255,255,255,0.10)] bg-[#12141D] flex justify-center items-center">
-                <Image
-                  src="/assets/Arrow - Down.png"
-                  alt=""
-                  width={12}
-                  height={18}
-                  priority
-                />
+                
               </div>
             </span>
           </div>
