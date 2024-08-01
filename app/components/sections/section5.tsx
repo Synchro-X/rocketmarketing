@@ -6,7 +6,16 @@ export const Section5 = () => {
         <div className="pt-[21px] pb-[96.45px] mx-auto md:container md:px-[100px] px-[20px]">
           <div className="flex md:flex-row flex-col items-center">
             <div data-aos="fade-up" className="w-full md:w-[50%] relative">
-             
+              <Image
+                src="/assets/homework.png"
+                alt=""
+                width={0}
+                height={0}
+                layout="responsive"
+                style={{
+                  width: "100%",
+                }}
+              />
             </div>
             <div
               data-aos="fade-up"

@@ -19,7 +19,7 @@ export const Input = ({
               value={value}
               onChange={(e) => change(e.target.value)}
               placeholder={placeholder}
-              className="min-h-[134px] block rounded-[24px] border-[1px] border-white/[0.2] px-[22px] font-outfit text-base font-medium bg-transparent w-full py-[22px]"
+              className="min-h-[134px] block rounded-[24px] border-[1px] border-white/[0.2] px-[22px] font-outfit text-base font-medium bg-transparent w-full"
             ></textarea>
           </div>
         );
