@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-//import { PowerCube } from "../views/herosplne";
+import { PowerCube } from "../views/herosplne";
 export const Section4 = () => {
 
   
@@ -12,7 +12,7 @@ export const Section4 = () => {
       <section className="bcolor relative z-20" >
         <div className="flex pt-[56px] pb-[34.08px] flex-col items-center">
           <div className="w-[400px] h-[310px] relative">
-            
+            <PowerCube />
           </div>
           <div className="flex md:w-[632px] w-full flex-col items-center overflow-hidden md:mt-0 mt-[20px]">
             <div className="relative w-[100%]">

@@ -35,3 +35,41 @@ export const Active = () => {
       </svg>
     );
 }
+
+export const Close = () => {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="33"
+        height="33"
+        viewBox="0 0 33 33"
+        fill="none"
+      >
+        <rect
+          x="0.5"
+          y="0.5"
+          width="32"
+          height="32"
+          rx="16"
+          fill="#F6F6F6"
+          fill-opacity="0.3"
+        />
+        <path
+          d="M20.5 12.5L12.5 20.5"
+          stroke="white"
+          strokeWidth="2.73333"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12.5 12.5L20.5 20.5"
+          stroke="white"
+          strokeWidth="2.73333"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </>
+  );
+};
