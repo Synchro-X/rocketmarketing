@@ -15,7 +15,6 @@ export const GridLayers = () => {
       const root = document.documentElement;
       const newBoxNumber = root.getBoundingClientRect().height + 1000;
       setBoxNumber(newBoxNumber);
-      console.log("boxNumber set to:", newBoxNumber); // Debugging line
     }
   }, []);
 
@@ -29,14 +28,13 @@ export const GridLayers = () => {
         );
         if (!isNaN(HBoxNumbers) && HBoxNumbers > 0 && HBoxNumbers < 10000) {
           setHBox(HBoxNumbers);
-          console.log("HBox set to:", HBoxNumbers); // Debugging line
         } else {
           console.error("Invalid HBoxNumbers:", HBoxNumbers);
         }
       }
       if (!isNaN(propsize) && propsize > 0 && propsize < 10000) {
         setBoxSize(propsize);
-        console.log("boxSize set to:", propsize); // Debugging line
+        console.log("boxSize set to:", propsize); 
       } else {
         console.error("Invalid propsize:", propsize);
       }

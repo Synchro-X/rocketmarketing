@@ -10,6 +10,8 @@ import {
 } from "react";
 
 interface globalContextType {
+  open:boolean;
+  setOpen:Dispatch<SetStateAction<boolean>>;
   isLoadingComplete: boolean;
   setLoadingComplete: Dispatch<SetStateAction<boolean>>;
 }
@@ -24,11 +26,13 @@ export const GlobalContextProvider = ({
   children,
 }: GlobalContextProviderProps) => {
   const [isLoadingComplete, setLoadingComplete] = useState<boolean>(false);
+  const [open, setOpen] = useState<boolean>(false);
 
+  
 
   return (
     <GlobalContext.Provider
-      value={{ isLoadingComplete, setLoadingComplete }}
+      value={{ isLoadingComplete, setLoadingComplete, open, setOpen }}
     >
       {children}
     </GlobalContext.Provider>

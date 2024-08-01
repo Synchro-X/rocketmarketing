@@ -1,10 +1,15 @@
+
+
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { PowerCube } from "../views/herosplne";
 export const Section4 = () => {
+
+  
+
   return (
     <>
-      <section className="bcolor relative z-20">
+      <section className="bcolor relative z-20" >
         <div className="flex pt-[56px] pb-[34.08px] flex-col items-center">
           <div className="w-[400px] h-[310px] relative">
             <PowerCube />
@@ -22,7 +27,7 @@ export const Section4 = () => {
                       key={index}
                     >
                       <div className="relative w-[58px] h-[58px]">
-                        <Image src={image} alt="" sizes="100vw" fill />
+                        <Image src={image} alt="" fill />
                       </div>
                     </div>
                   );
@@ -54,7 +59,8 @@ export const Section4 = () => {
               brands in the world.
             </span>
             <span className="md:hidden block px-[20px]">
-              Over the last <span className="gctext">decade</span> we{"'"}ve worked with some of the most well known brands in the world.
+              Over the last <span className="gctext">decade</span> we{"'"}ve
+              worked with some of the most well known brands in the world.
             </span>
           </h3>
           <div className="mt-[18px]"></div>

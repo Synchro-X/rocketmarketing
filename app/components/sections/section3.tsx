@@ -1,50 +1,17 @@
-"use client";
 
-import React, { useEffect } from "react";
+
 import Image from "next/image";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import JetSpline from "../views/jetspline";
+import { JetSplineWrapper } from "../views/jetsplinewrapper";
 
-gsap.registerPlugin(ScrollTrigger);
 
 export const Section3 = () => {
-  useEffect(() => {
-    const timeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".rootelement",
-        start: "top 30%",
-        end: "bottom bottom",
-        scrub: true,
-      },
-    });
-
-    timeline
-      .fromTo(
-        ".jet",
-        { y: "100%", opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 3,
-          ease: "power2.out",
-        }
-      )
-      .to({}, { delay: 1 })
-      .fromTo(
-        ".boxcontent",
-        { opacity: 0, y: 100 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 2,
-          ease: "power2.out",
-        }
-      );
-  }, []);
-
+  
   return (
-    <div className="rootelement bcolor relative z-20  block">
+    <JetSplineWrapper>
+    <div
+      className="rootelement bcolor relative z-20  block overflow-hidden"
+    >
       <div className="jet absolute z-20 top-0 left-0 w-full h-full ">
         <JetSpline />
       </div>
@@ -79,7 +46,7 @@ export const Section3 = () => {
             </span>
           </p>
         </div>
-        <div className="mx-auto md:container hidden md:flex flex-col gap-[29px] mt-[48px] px-[20px] md:px-[80px] boxcontent">
+        <div className="mx-auto md:container hidden md:flex flex-col gap-[29px] mt-[48px] px-[20px] md:px-[80px] boxcontent border-[2] border-white">
           <div className="flex md:flex-row flex-col gap-[24px]">
             {Services.slice(0, 2).map((service, index) => (
               <div
@@ -91,7 +58,6 @@ export const Section3 = () => {
                     src={service.image}
                     alt={service.image}
                     fill
-                    sizes="100vw"
                     priority
                   />
                 </div>
@@ -134,7 +100,6 @@ export const Section3 = () => {
                     src={service.image}
                     alt={service.image}
                     fill
-                    sizes="100vw"
                     priority
                   />
                 </div>
@@ -166,7 +131,6 @@ export const Section3 = () => {
                     src={service.image}
                     alt={service.image}
                     fill
-                    sizes="100vw"
                     priority
                   />
                 </div>
@@ -209,7 +173,6 @@ export const Section3 = () => {
                     src={service.image}
                     alt={service.image}
                     fill
-                    sizes="100vw"
                     priority
                   />
                 </div>
@@ -231,6 +194,7 @@ export const Section3 = () => {
         </div>
       </div>
     </div>
+    </JetSplineWrapper>
   );
 };
 
@@ -293,8 +257,6 @@ const Services = [
   },
 ];
 
-
-
 const ServicesMobile = [
   {
     name: ["Music"],
@@ -304,9 +266,7 @@ const ServicesMobile = [
     image: "/assets/image-Photoroom 1.png",
   },
   {
-    name: [
-      "Web Design/Development-Crypto Web3 Education and Deployment",
-    ],
+    name: ["Web Design/Development-Crypto Web3 Education and Deployment"],
     contents: [
       "We develop and design websites as well as work with Web3 companies. For people that are interested in learning about Crypto and Web3 we offer - Crypto Curriculum : Beginner, Intermediate, and Advanced courses/information on Blockchain technology, Investing, and DeFi.",
     ],

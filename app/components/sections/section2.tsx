@@ -55,13 +55,13 @@ export const Section2 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.5] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden"
+            className="backdrop-blur-[6px] bg-[#1D1F27] rounded-[32px] border-[2px] border-white/[0.5] pt-[44px] pb-[50px] flex flex-col md:w-[50%] w-full gap-[42px] overflow-hidden relative"
           >
-            <div className="px-[40px] flex flex-col gap-[8px]">
-              <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white">
+            <div className="px-[40px] flex flex-col gap-[8px] ">
+              <p className="font-bold text-[20px] font-syne leading-[28px] trcking-[-0.4px] text-white px-[15px]">
                 Change the world by changing your brand
               </p>
-              <p className="flex flex-col font-medium text-base font-outfit text-white/[0.6]">
+              <p className="flex flex-col font-medium text-base font-outfit text-white/[0.6] px-[15px]">
                 <span className="hidden md:flex">
                   Pioneering breakthroughs in key sectors - from Web3 innovation
                   to
@@ -75,8 +75,8 @@ export const Section2 = () => {
                 </span>
               </p>
             </div>
-            <div className="flex flex-col gap-[16px] w-full items-center relative">
-              <div className="absolute w-[80px] h-[170px] left-0  llg z-10 translate-y-[-50%] top-[50%]"></div>
+            <div className="flex flex-col gap-[16px] w-full items-center ">
+              <div className="absolute top-0 w-[80px] h-full left-0  llg z-10 "></div>
               <div className="flex flex-col gap-[16px] relative *:">
                 <Marquee className="flex">
                   {Brands.map((brand, index) => {
@@ -105,7 +105,7 @@ export const Section2 = () => {
                   })}
                 </Marquee>
               </div>
-              <div className="absolute w-[80px] h-[170px] right-0 rlg z-10 translate-y-[-50%] top-[-50%]"></div>
+              <div className="absolute top-0 w-[80px] h-full right-0 rlg z-10 "></div>
             </div>
           </div>
         </div>

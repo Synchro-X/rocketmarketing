@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative ${syne.variable} ${outfit.variable} ${lufga.variable}`}
+        className={`${syne.variable} ${outfit.variable} ${lufga.variable}`}
       >
         <GlobalContextProvider>
           <Loader />

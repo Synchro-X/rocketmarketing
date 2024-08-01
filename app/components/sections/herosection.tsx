@@ -5,9 +5,10 @@ import { HeroSplinWave } from "../views/herosplne";
 import { HeaderWrapper } from "../views/headerwrapper";
 
 export const HeroSection = () => {
+  
   return (
     <>
-      <header className="relative z-20">
+      <header className="relative z-20" >
         <HeaderWrapper>
           <HeroSplinWave />
           <div className="flex flex-col items-center pt-[194px] pb-[257px] bg-bghero md:px-0 px-[20px]">
@@ -38,7 +39,6 @@ export const HeroSection = () => {
                 <Image
                   src="/assets/Arrow - Down.png"
                   alt=""
-                  sizes="100vw"
                   width={12}
                   height={18}
                   priority
