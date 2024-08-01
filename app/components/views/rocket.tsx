@@ -1,6 +1,5 @@
 
 
-import { useState, useEffect } from "react";
 import Spline from "@splinetool/react-spline/next";
 
 export default function Rocket() {
