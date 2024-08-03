@@ -49,14 +49,20 @@ export const Section6 = () => {
                 <div className="flex gap-[24px] md:mt-0 mt-[50px] items-center pb-[20px] flex-wrap">
                   {Socials.map((social, index) => {
                     return (
-                      <div
+                      <a
                         className="md:w-[64px] md:h-[64px] w-[36px] h-[36px] relative"
                         key={index}
+                        href="https://www.instagram.com/rocketmarketing.io"
+                        target="__blank"
                       >
                         <Image src={social} alt="" fill sizes="100vw" />
-                      </div>
+                      </a>
                     );
                   })}
+                  <div className="flex flex-col gap-[2px]">
+                    <span className="text-[18px] font-syne leading-[28px] tracking-[-0.4px] font-bold text-white">Connect with us on Instagram</span>
+                    <span className="text-white/[0.6] text-sm font-outfit">Send us a dm on instagram and lets talk!</span>
+                  </div>
                 </div>
               </div>
               <form className="flex flex-col gap-[16px] grow">
@@ -106,8 +112,5 @@ export const Section6 = () => {
 };
 
 const Socials = [
-  "/assets/Frame 1686552573.png",
   "/assets/Frame 1686552577.png",
-  "/assets/Frame 1686552578.png",
-  "/assets/Frame 1686552579.png",
 ];

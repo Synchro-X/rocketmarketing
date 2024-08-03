@@ -9,7 +9,7 @@ export const Section7 = () => {
     <>
       <section  className="bcolor relative z-20">
         <div className="pt-[56px] pb-[86px] flex flex-col items-center">
-          <div className="w-[246px] h-[276px]"><Rocket /></div>
+          <div className="w-[346px] h-[296px]"><Rocket /></div>
           <div className="md:w-[50%] shrink-0 flex flex-col md:px-0 px-[20px]">
             <div data-aos="fade-up" className="mt-[24px] mb-[18px]">
               <h3 className="flex flex-col gtext text-[32px] font-semibold leading-[1] font-syne text-center">

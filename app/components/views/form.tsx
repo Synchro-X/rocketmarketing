@@ -37,7 +37,7 @@ export const Form = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="200"
-              className="w-full rounded-[32px] border-[2px] backdrop-blur-[10px] flex flex-col  border-[#FFF]/[0.8] bg-[rgba(29,31,39,0.30)] items-center px-[20px] md:px-[49px] py-[51px] gap-[24px] relative "
+              className="w-full rounded-[32px] border-[2px] backdrop-blur-[2px] flex flex-col  border-[#FFF]/[0.8] bg-[rgba(29,31,39,0.30)] items-center px-[20px] md:px-[49px] py-[51px] gap-[24px] relative "
             >
               <span
                 className="absolute right-[20px] top-[20px] cursor-pointer"

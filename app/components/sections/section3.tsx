@@ -8,14 +8,12 @@ import { JetSplineWrapper } from "../views/jetsplinewrapper";
 export const Section3 = () => {
 
   
-
-  
   return (
     <JetSplineWrapper>
     <div
       className="rootelement bcolor relative z-20  block overflow-hidden"
     >
-      <div className="jet absolute z-20 top-0 left-0 w-full h-full ">
+      <div className="jet  absolute z-20 top-0 left-0 w-full h-full ">
         <JetSpline />
       </div>
       <div className="md:pt-[188px] md:pb-[188px] pt-[188px] pb-[88px] relative z-30">

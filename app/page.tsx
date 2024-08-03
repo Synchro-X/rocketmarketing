@@ -1,6 +1,3 @@
-
-
-
 import { HeroSection } from "./components/sections/herosection";
 import { Section2 } from "./components/sections/section2";
 import { Section3 } from "./components/sections/section3";
@@ -11,12 +8,11 @@ import { Section6 } from "./components/sections/section6";
 import { GridLayers } from "./components/views/gridlayers";
 import AOSWrapper from "./components/aoswrapper";
 import { Form } from "./components/views/form";
-
+import ImageSequence from "./components/views/Imagesequencing";
 
 export const metadata = {
   title: "rocketmarketing",
-  description:
-    "",
+  description: "",
   applicationName: "rocketmarketing",
   keywords: ["marketing", "rocket", "design", "website"],
   icons: {
@@ -78,14 +74,10 @@ export const metadata = {
   },
 };
 
-
 export default function Home() {
-
-
-
   return (
     <>
-          <Form />
+      <Form />
       <HeroSection />
       <main className="relative md:bg-transparent bg-[#12141D]">
         <AOSWrapper>
