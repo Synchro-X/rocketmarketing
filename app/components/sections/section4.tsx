@@ -9,7 +9,7 @@ export const Section4 = () => {
 
   return (
     <>
-      <section className="bcolor relative z-20" >
+      <section className="bcolor relative z-20">
         <div className="flex pt-[56px] pb-[34.08px] flex-col items-center">
           <PowerCube />
           <div className="flex md:w-[632px] w-full flex-col items-center overflow-hidden md:mt-0 mt-[20px]">
@@ -25,7 +25,7 @@ export const Section4 = () => {
                       key={index}
                     >
                       <div className="relative w-[58px] h-[58px]">
-                        <Image src={image} alt="" fill sizes="100vw" />
+                        <Image src={image} alt="" fill sizes="100vw" priority />
                       </div>
                     </div>
                   );
@@ -39,7 +39,7 @@ export const Section4 = () => {
             className="flex flex-col gtext font-syne font-bold text-[32px] mt-[24px] items-center text-center"
           >
             <span data-aos="fade-up" className="hidden md:flex">
-              Over the last <span className="gctext">decade</span> we{"'"}ve
+              Over the last <span className="gctext"> decade </span> we{"'"}ve
               worked
             </span>
             <span
