@@ -1,12 +1,7 @@
-
-
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { PowerCube } from "../views/herosplne";
 export const Section4 = () => {
-
-  
-
   return (
     <>
       <section className="bcolor relative z-20">
@@ -25,7 +20,7 @@ export const Section4 = () => {
                       key={index}
                     >
                       <div className="relative w-[58px] h-[58px]">
-                        <Image src={image} alt="" fill sizes="100vw" priority />
+                        <Image src={image.socail} alt="" fill sizes="100vw" placeholder="blur" blurDataURL={`${image.placeholder}`} priority />
                       </div>
                     </div>
                   );
@@ -87,12 +82,38 @@ export const Section4 = () => {
 };
 
 const BrandImages = [
-  "/assets/image 1 (1).png",
-  "/assets/image 1 (2).png",
-  "/assets/image 1 (3).png",
-  "/assets/image 1 (4).png",
-  "/assets/image 1 (5).png",
-  "/assets/image 1 (6).png",
-  "/assets/image 1.png",
-  "/assets/image 2 (1).png",
+  {
+    socail: "/assets/image 1 (1).png",
+    placeholder: "/assets/socials/image 1 (1).png",
+  },
+  {
+    socail: "/assets/image 1 (2).png",
+    placeholder: "/assets/socials/image 1 (2).png",
+  },
+  {
+    socail: "/assets/image 1 (3).png",
+    placeholder: "/assets/socials/image 1 (3).png",
+  },
+  {
+    socail: "/assets/image 1 (4).png",
+    placeholder: "/assets/socials/image 1 (4).png",
+  },
+  {
+    socail:  "/assets/image 1 (5).png",
+    placeholder: "/assets/socials/image 1 (5).png",
+  },
+  {
+    socail: "/assets/image 1 (6).png",
+    placeholder: "/assets/socials/image 1 (6).png",
+  },
+  {
+    socail: "/assets/image 1.png",
+    placeholder: "/assets/socials/image 1.png",
+  },
+  {
+    socail: "/assets/image 2 (1).png",
+    placeholder: "/assets/socials/image 2 (1).png",
+  },
+  
+  
 ];
